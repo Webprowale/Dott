@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-color:#FE7A36;
+    --secondary-color:#3652AD;
+    --tartiary-color:#280274;
+    --white-color:#E9F6FF;
+}
+body{
+    background-color: #141118;
+}
+.offcanvas-end{
+    width: 80% !important;
+    background-color: #172B4D !important;
+}
+.primaryT{
+    color: var(--primary-color);
+}
+.primaryB{
+    background-color: var(--primary-color);
+}
+.tartiaryT{
+    color: var(--tartiary-color);
+}
+.nav-link:hover{
+    color: var(--primary-color);
+}
+.textS{
+    font-size: 0.8em;
+}
+.textL{
+    font-size: 4.5em;
+}
+@media (max-width:430px) {
+    .colS{
+        margin-top: 0px !important;
+    }
+    .textL{
+        font-size: 2.3em;
+    }
+}

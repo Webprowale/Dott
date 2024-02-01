@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.create{
+    background: url('../img/create.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100dvh;
+}
+.log{
+    background: url('../img/log.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100dvh;
+}
+
+h1{
+    color: white;
+    -webkit-text-stroke: 2px #00ff00;
+    font-size: 3rem;
+}
+a{
+    color: brown;
+}
+.form-con{
+    height: 40px;
+    min-width: 280px;
+    width: 100%;
+    border: 1px solid rgb(199, 147, 248);
+    outline: none;
+    padding-left: 10px;
+    border-radius: 11px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.con-form{
+  height: 40px;
+    min-width: 280px;
+    width: 100%;
+    border: 1px solid rgb(199, 147, 248);
+    outline: none;
+    padding-left: 10px;
+    border-radius: 11px;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+.sendbtn{
+    color: #00ff00;
+}
+.form-con::placeholder {
+    color: #bdf7bd;
+    opacity: 1; 
+  }
+  
+  .form-con::-ms-input-placeholder { 
+    color: #bdf7bd;
+  }
+  .passwordInput::placeholder{
+    color: #bdf7bd;
+    opacity: 1;
+  }  
+  .passwordInput::-ms-input-placeholder{
+    color: #bdf7bd;
+  
+  }
+  .pss{
+    height: 40px;
+    min-width: 280px;
+    width: 100%;
+    border: 1px solid rgb(199, 147, 248);
+    border-radius: 11px;
+  }
+  .vis{
+    color: #00ff00;
+  }
+  .passwordInput{
+    background-color: transparent;
+    color: white;
+    min-width: 220px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .passwordInputU{
+    min-width: 220px;
+    width: 100%;
+    border: none;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    padding-left: 10px;
+    outline: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.2em;
+  }
+  .password-toggle{
+    color: #00ff00;
+    margin-top: 5px;
+  
+  }
+  .password-toggleU{
+    color: #00ff00;
+    margin-top: 5px;
+    font-size: 1.1em;
+  }
