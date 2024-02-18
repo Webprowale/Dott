@@ -1,5 +1,17 @@
-.subP{
-    width: 30%;
-    background-color: var(--secondary-color);
-    height: 100%;
+*{
+    margin: 0;
+    padding: 0;
+}
+.userinfo{
+    width: 500px;
+}
+.bio{
+    width: 100%;
+    height: 90px;
+    resize: none;
+}
+@media (max-width:430px) {
+    .userinfo{
+        width: 305px !important;
+    }
 }

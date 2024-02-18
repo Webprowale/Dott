@@ -6,7 +6,7 @@
     <title>Dott || let dot the world</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg container">
@@ -32,12 +32,13 @@
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
           </div>
-          <button class="border-0 outline-0 d-lg-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <span class="navbar-toggler-icon text-black"></span></button>
+          <button class=" d-lg-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" style="background-color: transparent; border:none; outline:none;"><i class="fa-solid fa-bars fs-2 primaryT"></i></button>
 
          <div class=" off offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
          <div class="offcanvas-header">
-         <h5 class="offcanvas-title" id="offcanvasRightLabel">Dott</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+         <h5 class="offcanvas-title primaryT fs-1 fw-bold" id="offcanvasRightLabel">Dott <span><i class="fa-brands fa-wirsindhandwerk"></i></span></h5>
+
+        <button type="button" class="fa-solid fa-xmark primaryT fs-4" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: transparent;border:none; outline:none;"></button>
        </div>
       <div class="offcanvas-body ps-5 d-flex flex-column">
         <a class="nav-link fw-bold text-white" href="index.html">Explore</a>

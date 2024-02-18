@@ -25,6 +25,7 @@ if($_SERVER['REQUEST_METHOD']== 'POST'){
         $user = $res->fetch_assoc();
         $user_id = $user['id'];
         $_SESSION['id'] = $user_id;
+        $_SESSION['username'] = $log_username;
         $password = $user['password'];
         if(password_verify($log_pass, $password)){
           $succ = "Login Successfully";
@@ -78,7 +79,7 @@ if($_SERVER['REQUEST_METHOD']== 'POST'){
                         <?= $err_pass ?>
                           </div>
                     </div>
-                  <input type="submit" value="Join Dott" class=" ms-4 btn bg-white text-info px-3 fs-5 fw-bold ">
+                  <input type="submit" value="Join Dott" class=" ms-2 btn bg-white w-50 text-info px-3 fs-5 fw-bold ">
                 </form>
             </div>
         </div>

@@ -91,7 +91,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                                 <?= $err_pass ?>
                             </div>
                         </div>
-                        <input type="submit" value="Join Dott" class=" ms-2 btn btn-outline-info px-3 fs-5 fw-bold sendbtn">
+                        <input type="submit" value="Join Dott" class=" ms-1 btn btn-outline-info px-3 fs-5 fw-bold w-50 sendbtn">
                     </form>
                 </div>
             </div>
